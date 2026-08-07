@@ -7,8 +7,6 @@ on:
       - "packages/docs/**"
       - "scripts/docs/**"
       - "package.json"
-  release:
-    types: [published]
   workflow_dispatch:
     inputs:
       release_tag:
