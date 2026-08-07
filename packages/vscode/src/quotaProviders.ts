@@ -180,7 +180,8 @@ const ANTIGRAVITY_ACCOUNTS_PATHS = [
   path.join(OPENCODE_DATA_DIR, 'antigravity-accounts.json'),
 ];
 
-// OAuth client values must be supplied through environment variables.\r\nconst ANTIGRAVITY_GOOGLE_CLIENT_ID = process.env.OPENCHAMBER_ANTIGRAVITY_GOOGLE_CLIENT_ID?.trim() || 'configure-antigravity-client-id';
+// OAuth client values must be supplied through environment variables.
+const ANTIGRAVITY_GOOGLE_CLIENT_ID = process.env.OPENCHAMBER_ANTIGRAVITY_GOOGLE_CLIENT_ID?.trim() || 'configure-antigravity-client-id';
 const ANTIGRAVITY_GOOGLE_CLIENT_SECRET = process.env.OPENCHAMBER_ANTIGRAVITY_GOOGLE_CLIENT_SECRET?.trim() || '';
 const GEMINI_GOOGLE_CLIENT_ID = process.env.OPENCHAMBER_GEMINI_GOOGLE_CLIENT_ID?.trim() || 'configure-gemini-client-id';
 const GEMINI_GOOGLE_CLIENT_SECRET = process.env.OPENCHAMBER_GEMINI_GOOGLE_CLIENT_SECRET?.trim() || '';
