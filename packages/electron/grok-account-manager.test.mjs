@@ -83,11 +83,11 @@ test('login completion is surfaced without exposing token-like output', async (t
   const created = await manager.create('登录测试');
   const account = created.accounts.find((entry) => entry.label === '登录测试');
   await manager.login(account.id, 'device');
-  child.stderr.emit('data', 'Visit https://example.test and token xai-secret-value-123456789');
+  child.stderr.emit('data', 'Visit https://example.test and token mock-provider-secret-value-123456789');
   const authPath = path.join(manager.environmentFor(account.id).GROK_HOME, 'auth.json');
   await fsp.writeFile(authPath, '{}', 'utf8');
   child.emit('exit', 0);
   const status = manager.loginStatus(account.id);
   assert.equal(status.status, 'succeeded');
-  assert.doesNotMatch(status.output, /xai-secret/);
+  assert.doesNotMatch(status.output, /mock-provider-secret/);
 });
