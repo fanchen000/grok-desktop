@@ -1,0 +1,165 @@
+export const grokHistoryMessagesEn = {
+  'grokHistory.title': 'Local Grok history',
+  'grokHistory.usage': 'Subscription usage',
+  'grokHistory.usageHint': 'Open Grok billing and usage management.',
+  'grokHistory.usageUsed': '{percent}% used',
+  'grokHistory.usageRemaining': '{percent}% remaining',
+  'grokHistory.usageResetAt': 'Resets {date}',
+  'grokHistory.usageUnavailable': 'Subscription usage is unavailable',
+  'grokHistory.usageStale': 'Last known usage',
+  'grokHistory.usageRefresh': 'Refresh subscription usage',
+  'grokHistory.usageRefreshing': 'Refreshing subscription usage…',
+  'grokHistory.refresh': 'Refresh local Grok history',
+  'grokHistory.searchPlaceholder': 'Search local threads',
+  'grokHistory.noSearchResults': 'No matching local Grok threads.',
+  'grokHistory.empty': 'No local Grok threads for this account yet.',
+  'grokHistory.previewFailed': 'Could not open the Grok thread',
+  'grokHistory.imported': 'Grok thread opened in the desktop chat',
+  'grokHistory.importFailed': 'Could not continue the Grok thread',
+  'grokHistory.truncated': 'This very large transcript is truncated in the preview. Continuing still resumes the original Grok session.',
+  'grokHistory.roleUser': 'You',
+  'grokHistory.roleAssistant': 'Grok',
+  'grokHistory.close': 'Close',
+  'grokHistory.importing': 'Opening…',
+  'grokHistory.continue': 'Continue this thread',
+} as const;
+
+export const grokHistoryMessagesZhCn = {
+  'grokHistory.title': '本地 Grok 历史',
+  'grokHistory.usage': '订阅额度',
+  'grokHistory.usageHint': '打开 Grok 额度与账单管理。',
+  'grokHistory.usageUsed': '已用 {percent}%',
+  'grokHistory.usageRemaining': '剩余 {percent}%',
+  'grokHistory.usageResetAt': '{date} 重置',
+  'grokHistory.usageUnavailable': '暂时无法读取订阅额度',
+  'grokHistory.usageStale': '上次读取的额度',
+  'grokHistory.usageRefresh': '刷新订阅额度',
+  'grokHistory.usageRefreshing': '正在刷新订阅额度…',
+  'grokHistory.refresh': '刷新本地 Grok 历史',
+  'grokHistory.searchPlaceholder': '搜索本地线程',
+  'grokHistory.noSearchResults': '没有匹配的本地 Grok 线程。',
+  'grokHistory.empty': '当前账号还没有本地 Grok 线程。',
+  'grokHistory.previewFailed': '无法打开 Grok 历史线程',
+  'grokHistory.imported': '已在桌面聊天区打开 Grok 线程',
+  'grokHistory.importFailed': '无法继续 Grok 历史线程',
+  'grokHistory.truncated': '这条线程很大，预览仅显示前半部分；继续后仍会恢复原始 Grok 会话。',
+  'grokHistory.roleUser': '你',
+  'grokHistory.roleAssistant': 'Grok',
+  'grokHistory.close': '关闭',
+  'grokHistory.importing': '正在打开…',
+  'grokHistory.continue': '继续此线程',
+} as const;
+
+export const grokHistoryMessagesZhTw = {
+  'grokHistory.title': '本機 Grok 歷史',
+  'grokHistory.usage': '訂閱額度',
+  'grokHistory.usageHint': '開啟 Grok 額度與帳單管理。',
+  'grokHistory.usageUsed': '已用 {percent}%',
+  'grokHistory.usageRemaining': '剩餘 {percent}%',
+  'grokHistory.usageResetAt': '{date} 重設',
+  'grokHistory.usageUnavailable': '暫時無法讀取訂閱額度',
+  'grokHistory.usageStale': '上次讀取的額度',
+  'grokHistory.usageRefresh': '重新整理訂閱額度',
+  'grokHistory.usageRefreshing': '正在重新整理訂閱額度…',
+  'grokHistory.refresh': '重新整理本機 Grok 歷史',
+  'grokHistory.searchPlaceholder': '搜尋本機對話',
+  'grokHistory.noSearchResults': '沒有相符的本機 Grok 對話。',
+  'grokHistory.empty': '目前帳號還沒有本機 Grok 對話。',
+  'grokHistory.previewFailed': '無法開啟 Grok 歷史對話',
+  'grokHistory.imported': '已在桌面聊天區開啟 Grok 對話',
+  'grokHistory.importFailed': '無法繼續 Grok 歷史對話',
+  'grokHistory.truncated': '此對話內容很大，預覽僅顯示前段；繼續後仍會恢復原始 Grok 工作階段。',
+  'grokHistory.roleUser': '你',
+  'grokHistory.roleAssistant': 'Grok',
+  'grokHistory.close': '關閉',
+  'grokHistory.importing': '正在開啟…',
+  'grokHistory.continue': '繼續此對話',
+} as const;
+
+export const grokUsageMessagesDe = {
+  'grokHistory.usageHint': 'Grok-Nutzung und Abrechnung öffnen.',
+  'grokHistory.usageUsed': '{percent}% verbraucht',
+  'grokHistory.usageRemaining': '{percent}% verbleibend',
+  'grokHistory.usageResetAt': 'Zurücksetzung am {date}',
+  'grokHistory.usageUnavailable': 'Abonnementnutzung ist nicht verfügbar',
+  'grokHistory.usageStale': 'Zuletzt bekannte Nutzung',
+  'grokHistory.usageRefresh': 'Abonnementnutzung aktualisieren',
+  'grokHistory.usageRefreshing': 'Abonnementnutzung wird aktualisiert…',
+} as const;
+
+export const grokUsageMessagesFr = {
+  'grokHistory.usageHint': 'Ouvrir la gestion de l’utilisation et de la facturation Grok.',
+  'grokHistory.usageUsed': '{percent} % utilisés',
+  'grokHistory.usageRemaining': '{percent} % restants',
+  'grokHistory.usageResetAt': 'Réinitialisation le {date}',
+  'grokHistory.usageUnavailable': 'Utilisation de l’abonnement indisponible',
+  'grokHistory.usageStale': 'Dernière utilisation connue',
+  'grokHistory.usageRefresh': 'Actualiser l’utilisation de l’abonnement',
+  'grokHistory.usageRefreshing': 'Actualisation de l’utilisation de l’abonnement…',
+} as const;
+
+export const grokUsageMessagesEs = {
+  'grokHistory.usageHint': 'Abrir la gestión de uso y facturación de Grok.',
+  'grokHistory.usageUsed': '{percent} % usado',
+  'grokHistory.usageRemaining': '{percent} % restante',
+  'grokHistory.usageResetAt': 'Se restablece el {date}',
+  'grokHistory.usageUnavailable': 'El uso de la suscripción no está disponible',
+  'grokHistory.usageStale': 'Último uso conocido',
+  'grokHistory.usageRefresh': 'Actualizar el uso de la suscripción',
+  'grokHistory.usageRefreshing': 'Actualizando el uso de la suscripción…',
+} as const;
+
+export const grokUsageMessagesPtBr = {
+  'grokHistory.usageHint': 'Abrir o gerenciamento de uso e cobrança do Grok.',
+  'grokHistory.usageUsed': '{percent}% usado',
+  'grokHistory.usageRemaining': '{percent}% restante',
+  'grokHistory.usageResetAt': 'Redefine em {date}',
+  'grokHistory.usageUnavailable': 'Uso da assinatura indisponível',
+  'grokHistory.usageStale': 'Último uso conhecido',
+  'grokHistory.usageRefresh': 'Atualizar uso da assinatura',
+  'grokHistory.usageRefreshing': 'Atualizando uso da assinatura…',
+} as const;
+
+export const grokUsageMessagesUk = {
+  'grokHistory.usageHint': 'Відкрити керування використанням і оплатою Grok.',
+  'grokHistory.usageUsed': 'Використано {percent}%',
+  'grokHistory.usageRemaining': 'Залишилося {percent}%',
+  'grokHistory.usageResetAt': 'Скидання {date}',
+  'grokHistory.usageUnavailable': 'Дані про використання підписки недоступні',
+  'grokHistory.usageStale': 'Останні відомі дані',
+  'grokHistory.usageRefresh': 'Оновити дані про підписку',
+  'grokHistory.usageRefreshing': 'Оновлення даних про підписку…',
+} as const;
+
+export const grokUsageMessagesKo = {
+  'grokHistory.usageHint': 'Grok 사용량 및 결제 관리를 엽니다.',
+  'grokHistory.usageUsed': '{percent}% 사용',
+  'grokHistory.usageRemaining': '{percent}% 남음',
+  'grokHistory.usageResetAt': '{date} 재설정',
+  'grokHistory.usageUnavailable': '구독 사용량을 확인할 수 없습니다',
+  'grokHistory.usageStale': '마지막으로 확인한 사용량',
+  'grokHistory.usageRefresh': '구독 사용량 새로고침',
+  'grokHistory.usageRefreshing': '구독 사용량을 새로고치는 중…',
+} as const;
+
+export const grokUsageMessagesPl = {
+  'grokHistory.usageHint': 'Otwórz zarządzanie użyciem i rozliczeniami Grok.',
+  'grokHistory.usageUsed': 'Wykorzystano {percent}%',
+  'grokHistory.usageRemaining': 'Pozostało {percent}%',
+  'grokHistory.usageResetAt': 'Reset {date}',
+  'grokHistory.usageUnavailable': 'Dane użycia subskrypcji są niedostępne',
+  'grokHistory.usageStale': 'Ostatnie znane użycie',
+  'grokHistory.usageRefresh': 'Odśwież użycie subskrypcji',
+  'grokHistory.usageRefreshing': 'Odświeżanie użycia subskrypcji…',
+} as const;
+
+export const grokUsageMessagesJa = {
+  'grokHistory.usageHint': 'Grok の使用量と請求管理を開きます。',
+  'grokHistory.usageUsed': '{percent}% 使用済み',
+  'grokHistory.usageRemaining': '残り {percent}%',
+  'grokHistory.usageResetAt': '{date} にリセット',
+  'grokHistory.usageUnavailable': 'サブスクリプション使用量を取得できません',
+  'grokHistory.usageStale': '前回取得した使用量',
+  'grokHistory.usageRefresh': 'サブスクリプション使用量を更新',
+  'grokHistory.usageRefreshing': 'サブスクリプション使用量を更新中…',
+} as const;
